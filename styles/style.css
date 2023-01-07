@@ -159,10 +159,64 @@ main{
 
 footer{
     background-color: #151414;
+    margin-top: 130px;
 }
-.foot{}
+.foot-content{
+    display: flex;
+}
+.foot{ 
+    width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    /* margin-top: 130px; */
+}
+
+.foot-left{
+    width: 50%;
+}
+.font-right{
+    widht:50%;
+}
 .foot-title{
-    
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
 }
 
+#foot-part .foot-left p{
+    color: #FFFFFF;
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
 
+.foot-sub-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 31px;
+}
+input[type="email"]{
+    background: #151414;
+    font-weight: 700;
+    width: 325px;
+    padding: 15px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+input[type="email"]::placeholder{
+    color: #ffffff;
+    font-weight: 300;
+}
+.sub-btn{
+    background: #005FAC;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
