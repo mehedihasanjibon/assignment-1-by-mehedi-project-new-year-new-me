@@ -52,10 +52,117 @@
 
 
 /* about section  */   
+main{
+
+}
 .about{
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 120px 0;
 }
 
+.about-img{
+    width:569px;
+    margin-top: 130px;
+}
+.content{
+    margin-top: 370px;
+}
+.content-title{
+    color: #151414;
+    width: 288px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+.content-info{
+    color: #444343;
+    width: 416px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+}
 
+.content ul{
+    margin-left: -39px;
+    margin-top: 10px;
+}
+.content li{
+    list-style: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.content i{
+    font-size: 16px;
+    color: #47d12f;
+    margin-right: 10px;
+}
+    /* plans section  */
+.plans{
+    margin-top: 130px;
+}
+.plan-title{
+    color: #151414;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.plan-part{
+    text-align: center;
+}
+.plan-part h3{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 24px;
+}
+.plan-part p{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 16px;
+}
+
+.contact{
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    padding: 60px 0;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.contact-title{
+    color: #FFFFFF;
+    width: 459px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 64px;
+}
+.contact-btn{
+    margin-left: 64px;
+    margin-top: 24px;
+}
+
+footer{
+    background-color: #151414;
+}
+.foot{}
+.foot-title{
+    
+}
 
 
